@@ -1,6 +1,6 @@
 # VLoader - Your Ultimate Video Downloading Companion
 
-![VLoader Logo](src/assets/app.png)
+![VLoader Logo](src/assets/app-removebg.png)
 
 ## 🎥 What is VLoader?
 

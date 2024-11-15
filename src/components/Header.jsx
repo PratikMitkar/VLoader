@@ -11,7 +11,7 @@ export default function Header() {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <div className={styles.logo}>
-          <img src={MyIcon} alt="VLoader Icon" style={{ width: '2rem', height: '2rem' }} />
+          <img src={MyIcon} alt="VLoader Icon" style={{ width: '2.5rem', height: '2.5rem' }} />
           <span style={{ color: '#DDE6ED' }}>VLoader</span>
         </div>
         <button className={styles.mobileMenuToggle} onClick={toggleMenu} aria-label="Toggle menu">

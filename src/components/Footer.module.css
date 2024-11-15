@@ -1,0 +1,27 @@
+.footer {
+  background-color: var(--dark-blue);
+  color: var(--light-blue);
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 4px solid var(--light-blue);
+}
+
+.footer a {
+  color: var(--light-blue);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+}

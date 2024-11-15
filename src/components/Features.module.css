@@ -1,0 +1,113 @@
+.features {
+  background-color: var(--light-blue);
+  padding: 6rem 2rem;
+  width: 100%;
+}
+
+.features h2 {
+  font-size: 3rem;
+  color: var(--dark-blue);
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 700;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.featureCard {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.iconWrapper {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: rgba(155, 178, 191, 0.1);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.featureCard:hover .iconWrapper {
+  transform: scale(1.1);
+  background: rgba(26, 115, 232, 0.15);
+}
+
+.iconGroup {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.youtube {
+  color: var(--dark-blue);
+}
+
+.instagram {
+  color: var(--dark-blue);
+}
+
+.downloadIcon {
+  color: var(--dark-blue);
+}
+
+.formatIcon {
+  color: var(--dark-blue);
+}
+
+.featureCard h3 {
+  font-size: 1.5rem;
+  color: var(--dark-blue);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.featureCard p {
+  color: var(--dark-blue);
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .features {
+    padding: 4rem 2rem;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .featureCard {
+    padding: 2rem;
+  }
+  
+  .iconWrapper {
+    font-size: 3rem;
+    width: 80px;
+    height: 80px;
+  }
+}
